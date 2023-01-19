@@ -1,0 +1,81 @@
+.box{
+    width: 120%;
+    max-width: 130%;
+    height: auto;
+    background-color: #efefef;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.box .img-box{
+    position: relative;
+}
+.box .img-box img{
+    width: 120%;
+    height: auto;
+    position: relative;
+}
+.box .img-box .img-overlay{
+    position: absolute;
+    background-color: #000;
+    width: 120%;
+    height: 100%;
+    top :0;
+    left: 0;
+}
+.box .text-box{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.box .text-box a{
+    font-size: 16px;
+    font-family: 'Tajawal';
+    color: #000;
+    line-height: 25px;
+    display: block;
+}
+.box .text-box span{
+    color :#455574;
+}
+.box .text-box .action{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.box .text-box .action button{
+    color: #455574;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #f6f6f6;
+    font-size: 12px;
+    text-transform: uppercase;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+.box:hover .text-box .action button{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.box:hover .action{
+    display: block;
+}

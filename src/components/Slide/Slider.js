@@ -12,15 +12,15 @@ const Slider = ()=>{
             <img src={slide1} alt="First slide"/>
             <Carousel.Caption>
                 <h3>You're Looking Good</h3>
-                <h2>New lookbook</h2>
-                <button>discover more</button>
+                <div className='txt' > <h2>New look</h2></div>
+                <button >discover more</button>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img src={slide2} alt="First slide"/>
             <Carousel.Caption>
                 <h3>don't miss</h3>
-                <h2>Mysrety Deals</h2>
+                <div className='txt' ><h2>Best  Deals</h2></div>
                 <button>discover more</button>
             </Carousel.Caption>
         </Carousel.Item>

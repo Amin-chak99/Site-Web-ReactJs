@@ -9,11 +9,12 @@ export const Shop = () => {
   
 
   return (
-    <div className="shop">
+    <div className="">
         <Fragment>
             <Slider />
         </Fragment>
-      <div className="shopTitle">
+      <div  className="container">
+      <div className="shopTitle" >
         <h1>Tous Nos Produit</h1>
       </div>
 
@@ -21,6 +22,7 @@ export const Shop = () => {
         {PRODUCTS.map((product) => (
           <Product data={product} />
         ))}
+      </div>
       </div>
     </div>
   );

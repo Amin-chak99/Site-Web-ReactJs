@@ -1,6 +1,6 @@
 .box{
-    width: 95%;
-    max-width: 97%;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     background-color: #f6f6f6;
     border: 1px solid  rgb(157, 157, 157);
@@ -8,9 +8,10 @@
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    margin-right: 10px;
+    
     margin-top: 50px;
-    margin-left: 10px;
+    margin-bottom: 20px;
+    
 
 
 

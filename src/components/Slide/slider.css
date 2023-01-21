@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 901px) {
     .carousel .carousel-caption h2{
         font-size: 100px;
         letter-spacing: 5px;
@@ -8,9 +8,9 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .carousel .carousel-caption h2{
-        font-size: 50px;
+        font-size: 45px;
         letter-spacing: 5px;
         margin: 20px 0px;
     }

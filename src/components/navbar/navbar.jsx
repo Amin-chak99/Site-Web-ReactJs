@@ -11,7 +11,9 @@ import logo from "../../assets/products/logo.png";
 
 export const Navbar = () => {
   return (
-    <div className="navbar">
+   <div className="containerd">
+     <div className="col-lg-9 col-md-12 col-sm-12">
+      <div className="navbar">
       <div className="logo">
        <img src={logo} title="logo"/>
       </div>
@@ -35,5 +37,7 @@ export const Navbar = () => {
                     </div>
       
     </div>
+    </div>
+   </div>
   );
 };

@@ -42,7 +42,7 @@ export  function Footer() {
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit.
-              </p>
+              </p>  
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
